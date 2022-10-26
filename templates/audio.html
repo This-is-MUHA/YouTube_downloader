@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube Audio Downloader</title>
+</head>
+<body>
+    <form action="" id="url" method="post">
+        {% csrf_token %}
+        <textarea name="link" form="url"></textarea>
+        <input type="submit" value="Download">
+    </form>
+</body>
+</html>

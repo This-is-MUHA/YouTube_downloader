@@ -1,0 +1,6 @@
+pip~=22.0.4
+setuptools~=58.1.0
+Django==4.1.2
+pytube==12.1.0
+django-ajax-selects==2.2.0
+pytest-shutil==1.7.0
